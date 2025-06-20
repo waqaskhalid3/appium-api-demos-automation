@@ -1,0 +1,20 @@
+2025-06-20 02:09:36,776 - INFO - Navigating to Controls > Light Theme
+2025-06-20 02:09:40,808 - ERROR - Checkout flow test failed: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/waqas/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2025-06-20 02:39:04,556 - INFO - Navigating to Controls > Light Theme
+2025-06-20 02:39:11,709 - INFO - Filling out form
+2025-06-20 02:39:15,253 - INFO - Verifying form fields
+2025-06-20 02:39:15,277 - INFO - Checkout form filled and validated.
+2025-06-20 02:41:22,108 - INFO - Navigating to Controls > Light Theme
+2025-06-20 02:41:28,230 - INFO - Filling out form
+2025-06-20 02:41:31,592 - INFO - Verifying form fields
+2025-06-20 02:41:31,635 - INFO - Checkout form filled and validated.
+2025-06-20 03:48:52,628 - INFO - Navigating to Controls > Light Theme
+2025-06-20 03:48:58,738 - INFO - Filling out form
+2025-06-20 03:49:02,138 - INFO - Verifying form fields
+2025-06-20 03:49:02,800 - INFO - Checkout form filled and validated.

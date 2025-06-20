@@ -1,0 +1,17 @@
+2025-06-20 02:09:02,150 - INFO - Navigating to Expandable Lists > Custom Adapter
+2025-06-20 02:09:08,203 - INFO - Verifying 'People Names' exists
+2025-06-20 02:09:08,591 - INFO - 'People Names' found successfully.
+2025-06-20 02:38:30,735 - INFO - Navigating to Expandable Lists > Custom Adapter
+2025-06-20 02:38:32,460 - ERROR - Product list test failed: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/waqas/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2025-06-20 02:40:50,285 - INFO - Navigating to Expandable Lists > Custom Adapter
+2025-06-20 02:40:56,555 - INFO - Verifying 'People Names' exists
+2025-06-20 02:40:56,739 - INFO - 'People Names' found successfully.
+2025-06-20 03:48:17,875 - INFO - Navigating to Expandable Lists > Custom Adapter
+2025-06-20 03:48:23,798 - INFO - Verifying 'People Names' exists
+2025-06-20 03:48:24,236 - INFO - 'People Names' found successfully.

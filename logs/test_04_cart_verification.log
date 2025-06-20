@@ -1,0 +1,24 @@
+2025-06-20 02:09:24,521 - INFO - Navigating to Custom Adapter > People Names
+2025-06-20 02:09:32,107 - INFO - Checking dialog popup title
+2025-06-20 02:09:32,153 - ERROR - Cart verification test failed: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/waqas/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2025-06-20 02:38:49,307 - INFO - Navigating to Views > Expandable Lists > Custom Adapter
+2025-06-20 02:38:55,750 - INFO - Tapping 'People Names' to expand list
+2025-06-20 02:38:56,958 - INFO - Waiting for child items to appear
+2025-06-20 02:38:57,963 - INFO - Verifying that sub-item 'Arnold' is visible
+2025-06-20 02:38:58,372 - INFO - Sub-item 'Arnold' is visible. Cart verification passed.
+2025-06-20 02:41:11,489 - INFO - Navigating to Views > Expandable Lists > Custom Adapter
+2025-06-20 02:41:16,970 - INFO - Tapping 'People Names' to expand list
+2025-06-20 02:41:17,955 - INFO - Waiting for child items to appear
+2025-06-20 02:41:18,959 - INFO - Verifying that sub-item 'Arnold' is visible
+2025-06-20 02:41:19,383 - INFO - Sub-item 'Arnold' is visible. Cart verification passed.
+2025-06-20 03:48:40,439 - INFO - Navigating to Views > Expandable Lists > Custom Adapter
+2025-06-20 03:48:46,075 - INFO - Tapping 'People Names' to expand list
+2025-06-20 03:48:47,248 - INFO - Waiting for child items to appear
+2025-06-20 03:48:48,252 - INFO - Verifying that sub-item 'Arnold' is visible
+2025-06-20 03:48:48,364 - INFO - Sub-item 'Arnold' is visible. Cart verification passed.

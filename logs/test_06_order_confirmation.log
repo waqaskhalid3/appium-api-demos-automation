@@ -1,0 +1,23 @@
+2025-06-20 02:09:45,232 - INFO - Re-opening Light Theme form for order confirmation
+2025-06-20 02:09:50,543 - ERROR - Order confirmation test failed: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/waqas/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2025-06-20 02:39:20,160 - INFO - Re-opening Light Theme form for order confirmation
+2025-06-20 02:39:26,270 - INFO - Validating form state post submission
+2025-06-20 02:39:26,334 - ERROR - Order confirmation test failed: assert 'hint text' == 'John Doe'
+  - John Doe
+  + hint text
+2025-06-20 02:41:34,785 - INFO - Re-opening Light Theme form for order confirmation
+2025-06-20 02:41:40,571 - INFO - Validating form state post submission
+2025-06-20 02:41:40,832 - ERROR - Order confirmation test failed: assert 'hint text' == 'John Doe'
+  - John Doe
+  + hint text
+2025-06-20 03:49:07,075 - INFO - Re-opening Light Theme form for order confirmation
+2025-06-20 03:49:13,084 - INFO - Validating form state post submission
+2025-06-20 03:49:13,378 - ERROR - Order confirmation test failed: assert 'hint text' == 'John Doe'
+  - John Doe
+  + hint text
